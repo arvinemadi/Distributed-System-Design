@@ -13,3 +13,8 @@ More information:
 - https://www.americanscientist.org/article/the-britney-spears-problem
 - https://www.youtube.com/watch?v=kx-XDoPjoHw
 
+### Design Twitter:
+The focus of this system design was on NewsFeed generation and scalibility for a read heavy system. Trending topics is covered in 'Top-K heavy hitters' and search for key word would be added separately.
+
+
+
