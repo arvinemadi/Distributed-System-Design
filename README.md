@@ -16,5 +16,9 @@ More information:
 ### Design Twitter:
 The focus of this system design was on NewsFeed generation and scalibility for a read heavy system. Trending topics is covered in 'Top-K heavy hitters' and search for key word would be added separately.
 
+### Time Series DB:
+Functional and non-Functional requirements can vary. The focus was on the concept of hot to store so that both write and reads can be done efficiently. The concept is similar to LSM (Log-Structured Merge Tree) but instead of arranging/sort based on the key, we can arrange/sort based on time.
 
+- Intro to LSM based DBs: https://www.youtube.com/watch?v=P2xtlLymqqI
+- InfluxDB lecture with more details: https://www.youtube.com/watch?v=2SUBRE6wGiA
 
