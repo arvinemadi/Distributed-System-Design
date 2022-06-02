@@ -30,4 +30,5 @@ CRDT can be used in other similar problems:
 - Distributed leader-less key-value stores
 - Sets (a bit more tricky)
 - Sequences
+
 More info: https://arxiv.org/pdf/1307.3207v1.pdf
