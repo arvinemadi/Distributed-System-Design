@@ -22,3 +22,11 @@ Functional and non-Functional requirements can vary. The focus was on the concep
 - Intro to LSM based DBs: https://www.youtube.com/watch?v=P2xtlLymqqI
 - InfluxDB lecture with more details: https://www.youtube.com/watch?v=2SUBRE6wGiA
 
+### Global Distributed Counter:
+Example of Functional and non-Functional requirements are shown in the final. 
+The simple proposed system design based on Conflict-Free Replicated Data Type (CRDT).
+CRDT can be used in other similar problems:
+- Counting with both increments and decrements (need one array for increment and one for decrements)
+- Distributed leader-less key-value stores
+- Sets (a bit more tricky)
+- Sequences
