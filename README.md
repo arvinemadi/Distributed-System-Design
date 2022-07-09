@@ -32,3 +32,14 @@ CRDT can be used in other similar problems:
 - Sequences
 
 More info: https://arxiv.org/pdf/1307.3207v1.pdf
+
+### Data control system
+We have a big cluster with thousands of machines each of which is emitting hundreds of statistics per second.
+You can think that each statistic is represented by the tuple [host-name, metric-name, value].
+We want to be able to collect and aggregate those tuples in a scalable manner. The main consumers for this system are:
+- A graphing system - For a certain metric-name, plot a set of host-names from time t1 to t2
+e.g. Memory usage of host-1, host-2, host-3 for the past week
+- An alerting system- Issue an alert (email, etc) when a certain metric-name goes above/below a certain threshold
+e.g. Memory usage for host-1 goes above 70% for 5 minutes
+
+The system uses concepts from time series DB and also top heavy hitters.
