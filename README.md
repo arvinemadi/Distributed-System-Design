@@ -33,7 +33,7 @@ CRDT can be used in other similar problems:
 
 More info: https://arxiv.org/pdf/1307.3207v1.pdf
 
-### Data control system
+### Data Control and Retrieval System
 We have a big cluster with thousands of machines each of which is emitting hundreds of statistics per second.
 You can think that each statistic is represented by the tuple [host-name, metric-name, value].
 We want to be able to collect and aggregate those tuples in a scalable manner. The main consumers for this system are:
