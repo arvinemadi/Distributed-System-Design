@@ -47,3 +47,13 @@ The system uses concepts from time series DB and also top heavy hitters.
 ### WhatsApp system design
 The diagram shows high level system design for any chat system.
 
+### Cloud storage system design
+Design a system similar to AWS S3 with these requirements:
+● Durability: 11 - 9 (99.9999..%)
+● Availability 99.99%
+● multi-tendency 
+● Scalable
+● Region Specific Bucket
+● SSL : Secure
+
+
