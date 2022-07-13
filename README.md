@@ -43,3 +43,7 @@ e.g. Memory usage of host-1, host-2, host-3 for the past week
 e.g. Memory usage for host-1 goes above 70% for 5 minutes
 
 The system uses concepts from time series DB and also top heavy hitters.
+
+### WhatsApp system design
+The diagram shows high level system design for any chat system.
+
