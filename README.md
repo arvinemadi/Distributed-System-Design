@@ -60,6 +60,11 @@ Design a system similar to AWS S3 with these requirements:
 
 ● Region Specific Bucket
 
+### Graph processing system design
 
+Design a graph processor that determines the degree of connections between two members in a social graph if their degree is maximum 4
+Each user can be connected to millions of users and the system needs to be highly available and high throughput.
+
+This is an example of an compute extensive system and needs to be distributed for parallel processing. Also the system needs to be replicated at each shard for throughput. The high level diagram shows a proposed architecture of the system.
 
 
