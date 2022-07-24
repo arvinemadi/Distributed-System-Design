@@ -67,4 +67,13 @@ Each user can be connected to millions of users and the system needs to be highl
 
 This is an example of an compute extensive system and needs to be distributed for parallel processing. Also the system needs to be replicated at each shard for throughput. The high level diagram shows a proposed architecture of the system.
 
+### ML System design Resume ranking system
+
+Problem the volume of resumes reaching company X has increased a lot. Desing a tool to help hiring managers.
+
+The system architecture is showed.
+Some related useful links: 
+- [Fairness in ML](https://en.wikipedia.org/wiki/Fairness_(machine_learning))
+- [Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
+
 
