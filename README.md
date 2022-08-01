@@ -82,6 +82,6 @@ System returns similar images from a massive 100M images corpus. Return top N im
 
 Response time < 2sec. # of users 2M. 
 
-The system architecture is showed.
+The system architecture is showed. Pre-trained DNN can be used to embed the image. The system architecture is showing the ML concepts, the scaling for high throuput can be imagined using scaling techniques such as load balancers, sharding, etc.
 
 
