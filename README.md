@@ -76,7 +76,7 @@ Some related useful links:
 - [Fairness in ML](https://en.wikipedia.org/wiki/Fairness_(machine_learning))
 - [Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
 
-### ML System design: System that can return images similar to a region (cropped) in an input image
+### ML System design: Image Search: System that can return images similar to a region (cropped) in an input image
 
 System returns similar images from a massive 100M images corpus. Return top N images.
 
