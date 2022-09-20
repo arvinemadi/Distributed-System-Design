@@ -84,4 +84,6 @@ Response time < 2sec. # of users 2M.
 
 The system architecture is showed. Pre-trained DNN can be used to embed the image. The system architecture is showing the ML concepts, the scaling for high throuput can be imagined using scaling techniques such as load balancers, sharding, etc.
 
+### ML System design: X-ray Pnuemonia Automatic Detection System
 
+High level system design for a medical imaging application. The goal is to predict the probability of Pnuemonia in a patient from chest X-ray.
