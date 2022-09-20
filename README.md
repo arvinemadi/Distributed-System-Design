@@ -86,4 +86,4 @@ The system architecture is showed. Pre-trained DNN can be used to embed the imag
 
 ### ML System design: X-ray Pnuemonia Automatic Detection System
 
-High level system design for a medical imaging application. The goal is to predict the probability of Pnuemonia in a patient from chest X-ray.
+High level system design for a medical imaging application. The goal is to predict the probability of Pneumonia in a patient from chest X-ray.
